@@ -1,0 +1,257 @@
+{
+  "45.44,12.33": {
+    "yield_kwh_per_kwp": 1338.3,
+    "irradiance_kwh_m2": 1705.1,
+    "optimal_tilt": null
+  },
+  "45.71,9.00": {
+    "yield_kwh_per_kwp": 1340.9,
+    "irradiance_kwh_m2": 1722.5,
+    "optimal_tilt": null
+  },
+  "41.49,15.57": {
+    "yield_kwh_per_kwp": 1476.0,
+    "irradiance_kwh_m2": 1904.3,
+    "optimal_tilt": null
+  },
+  "45.85,10.98": {
+    "yield_kwh_per_kwp": 1376.0,
+    "irradiance_kwh_m2": 1733.2,
+    "optimal_tilt": null
+  },
+  "41.22,14.44": {
+    "yield_kwh_per_kwp": 1437.9,
+    "irradiance_kwh_m2": 1855.1,
+    "optimal_tilt": null
+  },
+  "40.92,9.19": {
+    "yield_kwh_per_kwp": 1402.2,
+    "irradiance_kwh_m2": 1795.8,
+    "optimal_tilt": null
+  },
+  "39.53,9.13": {
+    "yield_kwh_per_kwp": 1534.9,
+    "irradiance_kwh_m2": 1965.3,
+    "optimal_tilt": null
+  },
+  "43.14,11.69": {
+    "yield_kwh_per_kwp": 1381.1,
+    "irradiance_kwh_m2": 1766.8,
+    "optimal_tilt": null
+  },
+  "43.20,11.74": {
+    "yield_kwh_per_kwp": 1393.4,
+    "irradiance_kwh_m2": 1782.2,
+    "optimal_tilt": null
+  },
+  "43.21,11.74": {
+    "yield_kwh_per_kwp": 1395.2,
+    "irradiance_kwh_m2": 1784.6,
+    "optimal_tilt": null
+  },
+  "43.09,11.78": {
+    "yield_kwh_per_kwp": 1363.8,
+    "irradiance_kwh_m2": 1739.5,
+    "optimal_tilt": null
+  },
+  "43.21,11.80": {
+    "yield_kwh_per_kwp": 1401.5,
+    "irradiance_kwh_m2": 1794.5,
+    "optimal_tilt": null
+  },
+  "43.33,11.73": {
+    "yield_kwh_per_kwp": 1391.7,
+    "irradiance_kwh_m2": 1780.8,
+    "optimal_tilt": null
+  },
+  "43.17,11.77": {
+    "yield_kwh_per_kwp": 1398.4,
+    "irradiance_kwh_m2": 1788.3,
+    "optimal_tilt": null
+  },
+  "45.46,12.03": {
+    "yield_kwh_per_kwp": 1360.7,
+    "irradiance_kwh_m2": 1736.8,
+    "optimal_tilt": null
+  },
+  "42.53,14.13": {
+    "yield_kwh_per_kwp": 1453.8,
+    "irradiance_kwh_m2": 1864.7,
+    "optimal_tilt": null
+  },
+  "39.22,9.11": {
+    "yield_kwh_per_kwp": 1570.1,
+    "irradiance_kwh_m2": 2005.0,
+    "optimal_tilt": null
+  },
+  "46.16,9.96": {
+    "yield_kwh_per_kwp": 1156.5,
+    "irradiance_kwh_m2": 1431.1,
+    "optimal_tilt": null
+  },
+  "45.57,10.01": {
+    "yield_kwh_per_kwp": 1358.4,
+    "irradiance_kwh_m2": 1754.4,
+    "optimal_tilt": null
+  },
+  "41.61,13.30": {
+    "yield_kwh_per_kwp": 1422.0,
+    "irradiance_kwh_m2": 1848.2,
+    "optimal_tilt": null
+  },
+  "36.99,14.38": {
+    "yield_kwh_per_kwp": 1678.0,
+    "irradiance_kwh_m2": 2126.5,
+    "optimal_tilt": null
+  },
+  "36.94,14.61": {
+    "yield_kwh_per_kwp": 1582.0,
+    "irradiance_kwh_m2": 2023.8,
+    "optimal_tilt": null
+  },
+  "36.92,14.72": {
+    "yield_kwh_per_kwp": 1597.3,
+    "irradiance_kwh_m2": 2049.6,
+    "optimal_tilt": null
+  },
+  "41.47,12.90": {
+    "yield_kwh_per_kwp": 1503.2,
+    "irradiance_kwh_m2": 1942.8,
+    "optimal_tilt": null
+  },
+  "41.52,13.84": {
+    "yield_kwh_per_kwp": 1448.6,
+    "irradiance_kwh_m2": 1871.2,
+    "optimal_tilt": null
+  },
+  "41.68,12.47": {
+    "yield_kwh_per_kwp": 1534.7,
+    "irradiance_kwh_m2": 1960.5,
+    "optimal_tilt": null
+  },
+  "40.9,9.5": {
+    "yield_kwh_per_kwp": 1537.2,
+    "irradiance_kwh_m2": 1952.9,
+    "optimal_tilt": null
+  },
+  "45.4,12.3": {
+    "yield_kwh_per_kwp": 1338.3,
+    "irradiance_kwh_m2": 1705.1,
+    "optimal_tilt": null
+  },
+  "45.7,9.0": {
+    "yield_kwh_per_kwp": 1340.9,
+    "irradiance_kwh_m2": 1722.5,
+    "optimal_tilt": null
+  },
+  "41.5,15.6": {
+    "yield_kwh_per_kwp": 1476.0,
+    "irradiance_kwh_m2": 1904.3,
+    "optimal_tilt": null
+  },
+  "45.9,11.0": {
+    "yield_kwh_per_kwp": 1376.0,
+    "irradiance_kwh_m2": 1733.2,
+    "optimal_tilt": null
+  },
+  "41.2,14.4": {
+    "yield_kwh_per_kwp": 1420.0,
+    "irradiance_kwh_m2": 1820.0,
+    "optimal_tilt": 30.0
+  },
+  "40.9,9.2": {
+    "yield_kwh_per_kwp": 1420.0,
+    "irradiance_kwh_m2": 1820.0,
+    "optimal_tilt": 30.0
+  },
+  "39.5,9.1": {
+    "yield_kwh_per_kwp": 1420.0,
+    "irradiance_kwh_m2": 1820.0,
+    "optimal_tilt": 30.0
+  },
+  "43.1,11.7": {
+    "yield_kwh_per_kwp": 1381.1,
+    "irradiance_kwh_m2": 1766.8,
+    "optimal_tilt": null
+  },
+  "43.2,11.7": {
+    "yield_kwh_per_kwp": 1393.4,
+    "irradiance_kwh_m2": 1782.2,
+    "optimal_tilt": null
+  },
+  "43.1,11.8": {
+    "yield_kwh_per_kwp": 1363.8,
+    "irradiance_kwh_m2": 1739.5,
+    "optimal_tilt": null
+  },
+  "43.2,11.8": {
+    "yield_kwh_per_kwp": 1330.0,
+    "irradiance_kwh_m2": 1700.0,
+    "optimal_tilt": 30.0
+  },
+  "43.3,11.7": {
+    "yield_kwh_per_kwp": 1330.0,
+    "irradiance_kwh_m2": 1700.0,
+    "optimal_tilt": 30.0
+  },
+  "45.5,12.0": {
+    "yield_kwh_per_kwp": 1360.7,
+    "irradiance_kwh_m2": 1736.8,
+    "optimal_tilt": null
+  },
+  "42.5,14.1": {
+    "yield_kwh_per_kwp": 1453.8,
+    "irradiance_kwh_m2": 1864.7,
+    "optimal_tilt": null
+  },
+  "39.2,9.1": {
+    "yield_kwh_per_kwp": 1570.1,
+    "irradiance_kwh_m2": 2005.0,
+    "optimal_tilt": null
+  },
+  "46.2,10.0": {
+    "yield_kwh_per_kwp": 1180.0,
+    "irradiance_kwh_m2": 1500.0,
+    "optimal_tilt": 30.0
+  },
+  "45.6,10.0": {
+    "yield_kwh_per_kwp": 1358.4,
+    "irradiance_kwh_m2": 1754.4,
+    "optimal_tilt": null
+  },
+  "41.6,13.3": {
+    "yield_kwh_per_kwp": 1422.0,
+    "irradiance_kwh_m2": 1848.2,
+    "optimal_tilt": null
+  },
+  "37.0,14.4": {
+    "yield_kwh_per_kwp": 1678.0,
+    "irradiance_kwh_m2": 2126.5,
+    "optimal_tilt": null
+  },
+  "36.9,14.6": {
+    "yield_kwh_per_kwp": 1582.0,
+    "irradiance_kwh_m2": 2023.8,
+    "optimal_tilt": null
+  },
+  "36.9,14.7": {
+    "yield_kwh_per_kwp": 1597.3,
+    "irradiance_kwh_m2": 2049.6,
+    "optimal_tilt": null
+  },
+  "41.5,12.9": {
+    "yield_kwh_per_kwp": 1503.2,
+    "irradiance_kwh_m2": 1942.8,
+    "optimal_tilt": null
+  },
+  "41.5,13.8": {
+    "yield_kwh_per_kwp": 1448.6,
+    "irradiance_kwh_m2": 1871.2,
+    "optimal_tilt": null
+  },
+  "41.7,12.5": {
+    "yield_kwh_per_kwp": 1534.7,
+    "irradiance_kwh_m2": 1960.5,
+    "optimal_tilt": null
+  }
+}
