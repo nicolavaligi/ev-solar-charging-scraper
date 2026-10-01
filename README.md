@@ -83,7 +83,7 @@ python cli.py -q "piazzale" -c affitto --cat commerciale -p 2
 | `-r`, `--region` | Filtro regionale (es. `lombardia`, `lazio`, `toscana`, `veneto`) | `None` (Tutta Italia) |
 | `-c`, `--contract` | Tipo contratto: `vendita`, `affitto`, `all` | `all` |
 | `--cat`, `--category` | Categoria: `commerciale`, `terreni`, `all` | `all` |
-| `--min-mq` | Superficie minima accettabile in metri quadri | `400` mq |
+| `--min-mq` | Superficie minima accettabile in metri quadri | `120` mq |
 | `-p`, `--pages` | Numero di pagine da scansionare per combinazione | `2` |
 | `-o`, `--output` | Nome base dei file esportati in `output/` | `aree_ricarica_ev_solare` |
 
@@ -99,10 +99,12 @@ Ogni annuncio viene valutato e classificato nelle seguenti fasce:
 
 ### Ripartizione dei Punteggi:
 1. **Superficie Utile (25 pt)**:
-   - `< 400 mq`: 0 pt (non idoneo per pensiline e corsie di ricarica)
-   - `400 - 800 mq`: 14 pt (micro-hub 2-4 stalli)
-   - `800 - 3.000 mq`: 25 pt (taglia ideale per pensiline 80-200 kWp e 4-8 stalli fast/ultra-fast)
-   - `3.000 - 10.000 mq`: 22 pt (grande hub di ricarica o interscambio)
+   - `< 120 mq`: 0 pt (spazio insufficiente per stalli e pensilina)
+   - `120 - 250 mq`: 16 pt (micro-hub 2-4 stalli fast con pensilina compatta 15-30 kWp)
+   - `250 - 600 mq`: 22 pt (hub cittadino/commerciale 4-6 stalli con pensilina 30-70 kWp)
+   - `600 - 2.500 mq`: 25 pt (taglia ottimale standard per hub 6-12 stalli e pensiline 70-150 kWp)
+   - `2.500 - 8.000 mq`: 22 pt (grande hub di ricarica ad alta intensità)
+   - `> 8.000 mq`: 18 pt (superficie estesa, richiede frazionamento)
 2. **Accessibilità e Logistica (25 pt)**:
    - Riconoscimento NLP di assi viari primari: `fronte strada`, `tangenziale`, `casello autostradale`, `strada statale`, `alto passaggio`, `accesso bilici`, `rotatoria`.
 3. **Resa Solare PVGIS (20 pt)**:
