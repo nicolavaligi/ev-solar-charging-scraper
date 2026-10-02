@@ -23,7 +23,7 @@ Dalla directory del progetto:
 
 ```bash
 # 1. Posizionati nella directory di progetto
-cd /Users/houdinick/projects/ev-solar-charging-scraper
+cd /Users/houdinick/ev-solar-charging-scraper
 
 # 2. Utilizza il virtual environment già configurato
 # oppure creane uno nuovo dedicato con uv o venv:
@@ -36,7 +36,7 @@ uv pip install -r <(echo "httpx beautifulsoup4 folium pandas openpyxl streamlit 
 
 ## 3. Guida all'Uso da Riga di Comando (CLI)
 
-Il file [`cli.py`](file:///Users/houdinick/projects/ev-solar-charging-scraper/cli.py) offre un'interfaccia a riga di comando rapida e parametrizzabile.
+Il file [`cli.py`](file:///Users/houdinick/ev-solar-charging-scraper/cli.py) offre un'interfaccia a riga di comando rapida e parametrizzabile.
 
 ### Sintassi Base:
 ```bash
@@ -119,7 +119,7 @@ La dashboard si aprirà all'indirizzo: **[http://localhost:8502](http://localhos
 Se desideri consultare la mappa senza avviare l'ambiente Streamlit, puoi utilizzare il server locale integrato:
 
 * **URL Diretto**: **[http://localhost:8888/aree_ricarica_ev_solare.html](http://localhost:8888/aree_ricarica_ev_solare.html)**
-* **Percorso del File**: [`output/aree_ricarica_ev_solare.html`](file:///Users/houdinick/projects/ev-solar-charging-scraper/output/aree_ricarica_ev_solare.html)
+* **Percorso del File**: [`output/aree_ricarica_ev_solare.html`](file:///Users/houdinick/ev-solar-charging-scraper/output/aree_ricarica_ev_solare.html)
 
 Il file è completamente autosufficiente e può essere condiviso con colleghi o allegato a presentazioni.
 
@@ -127,7 +127,7 @@ Il file è completamente autosufficiente e può essere condiviso con colleghi o 
 
 ## 6. Struttura del File Excel (`aree_ricarica_ev_solare.xlsx`)
 
-Il file salvato in [`output/aree_ricarica_ev_solare.xlsx`](file:///Users/houdinick/projects/ev-solar-charging-scraper/output/aree_ricarica_ev_solare.xlsx) contiene le seguenti colonne di business:
+Il file salvato in [`output/aree_ricarica_ev_solare.xlsx`](file:///Users/houdinick/ev-solar-charging-scraper/output/aree_ricarica_ev_solare.xlsx) contiene le seguenti colonne di business:
 
 | Colonna | Descrizione |
 | :--- | :--- |
@@ -151,7 +151,7 @@ Il file salvato in [`output/aree_ricarica_ev_solare.xlsx`](file:///Users/houdini
 
 ## 7. Personalizzazione dei Parametri (`config.py`)
 
-Tutti i parametri di calcolo possono essere personalizzati modificando il file [`config.py`](file:///Users/houdinick/projects/ev-solar-charging-scraper/config.py):
+Tutti i parametri di calcolo possono essere personalizzati modificando il file [`config.py`](file:///Users/houdinick/ev-solar-charging-scraper/config.py):
 
 * **`MIN_SURFACE_MQ`**: Modifica la superficie minima per includere/escludere aree più piccole (default: `120 mq`).
 * **`CANOPY_COVERAGE_RATIO`**: Quota percentuale del piazzale copribile con pensiline (default: `0.40` = 40%).

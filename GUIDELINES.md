@@ -26,7 +26,7 @@
 
 ## 2. Modello Dati e Standard di Rappresentazione
 
-Tutti i dati scambiati tra i moduli devono aderire alla dataclass `ListingSite` definita in [`scrapers/base_scraper.py`](file:///Users/houdinick/projects/ev-solar-charging-scraper/scrapers/base_scraper.py):
+Tutti i dati scambiati tra i moduli devono aderire alla dataclass `ListingSite` definita in [`scrapers/base_scraper.py`](file:///Users/houdinick/ev-solar-charging-scraper/scrapers/base_scraper.py):
 
 * **Campi Obbligatori**: `id`, `title`, `url`, `contract_type`, `category`.
 * **Standard Metrici**:
@@ -57,7 +57,7 @@ Tutti i dati scambiati tra i moduli devono aderire alla dataclass `ListingSite` 
 
 ## 4. Modello Fisico per le Pensiline Fotovoltaiche (Solar Carports)
 
-I calcoli di producibilità solare integrati in [`enrichment/pvgis_client.py`](file:///Users/houdinick/projects/ev-solar-charging-scraper/enrichment/pvgis_client.py) seguono gli standard dell'industria EPC:
+I calcoli di producibilità solare integrati in [`enrichment/pvgis_client.py`](file:///Users/houdinick/ev-solar-charging-scraper/enrichment/pvgis_client.py) seguono gli standard dell'industria EPC:
 
 * **Tasso di Copertura Utile del Piazzale (`CANOPY_COVERAGE_RATIO`)**:
   * Valore predefinito: **`0.40` (40%)**.
@@ -73,7 +73,7 @@ I calcoli di producibilità solare integrati in [`enrichment/pvgis_client.py`](f
 
 ## 5. Calibrazione e Trasparenza dell'Algoritmo di Scoring (0–100)
 
-L'indice di idoneità calcolato da [`scoring/site_evaluator.py`](file:///Users/houdinick/projects/ev-solar-charging-scraper/scoring/site_evaluator.py) è articolato su 5 macro-aree con somma pesi pari a 100:
+L'indice di idoneità calcolato da [`scoring/site_evaluator.py`](file:///Users/houdinick/ev-solar-charging-scraper/scoring/site_evaluator.py) è articolato su 5 macro-aree con somma pesi pari a 100:
 
 | Macro-Area | Peso Massimale | Metrica Valutata |
 | :--- | :---: | :--- |
